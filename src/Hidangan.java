@@ -1,5 +1,3 @@
-package Hidangan;
-
 public class Hidangan {
     protected String namaHidangan;
      public String getNamaHidangan(){

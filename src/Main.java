@@ -1,5 +1,3 @@
-package Hidangan;
-
 import java.util.ArrayList;
 
 public class Main {
@@ -22,7 +20,7 @@ public class Main {
         lunch.setKonsumsi(nasi,air);
         listKonsumsi.add(lunch);
 
-        System.out.println("Menu Hidangan.Konsumsi ");
+        System.out.println("Menu Konsumsi ");
         for(Konsumsi<Makanan,Minuman> Konsumsi : listKonsumsi){
             Makanan makanan = Konsumsi.getM();
             Minuman minuman = Konsumsi.getI();
